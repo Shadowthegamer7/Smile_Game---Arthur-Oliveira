@@ -4,34 +4,45 @@
   .visivel{
     display:inline;
   }
+  body {
+    background-color: rgb(29, 22, 36);
+    color: white
+  }
   .inicial {
     text-align: center;
     font-size: 100px;
-    background-color: lightgrey;
+    background-color: rgb(198, 116, 206);
     width: 150px;
     height: 200px;
-    border: 15px solid green;
+    border: 15px solid rgb(136, 69, 212);
     padding: 10px;
     margin: 20px;
+    border-radius: 10%;
+    
+  }
+  .inicial:hover {
+    color:rgb(150, 82, 141)
+    
   }
   .acertou {
     text-align: center;
     color: yellow;
-    background-color: LawnGreen;
+    background-color: rgb(59, 139, 185);
     width: 150px;
     height: 200px;
-    border: 15px solid yellow;
+    border: 15px solid rgb(38, 41, 184);
     padding: 10px;
     margin: 20px;
+    border-radius: 10%;
   }
   .errou {
     text-align: center;
-    font-size: 100px;
     color: white;
-    background-color: red;
+    background-color: rgb(54, 26, 26);
     width: 150px;
     height: 200px;
-    border: 15px solid black;
+    border: 15px solid rgb(255, 0, 0);
     padding: 10px;
     margin: 20px;
+    border-radius: 10%;
   }
